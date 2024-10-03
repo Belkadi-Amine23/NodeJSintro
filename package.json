@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belkadi-Amine23/NodeJSintro.git"
+  },
+  "author": "Amine Belkadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Belkadi-Amine23/NodeJSintro/issues"
+  },
+  "homepage": "https://github.com/Belkadi-Amine23/NodeJSintro#readme",
+  "description": ""
+}
