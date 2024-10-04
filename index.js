@@ -1,3 +1,13 @@
-import fs from "fs"
+/*import fs from "fs"
 const fileContent = fs.readFileSync('./package.json')
-console.log(fileContent.toString())
+console.log(fileContent.toString())*/
+import http from "http"
+
+const server =http.createServer((req, res)=> {
+    res.writeHead(200, { "Content-Type": "text/plain"})
+    res.end("Hello World")
+})
+
+server.listen(3000, () => {
+    console.log("Server is running on port 3000")
+})
