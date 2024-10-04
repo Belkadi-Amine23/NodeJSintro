@@ -16,5 +16,8 @@
     "url": "https://github.com/Belkadi-Amine23/NodeJSintro/issues"
   },
   "homepage": "https://github.com/Belkadi-Amine23/NodeJSintro#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
